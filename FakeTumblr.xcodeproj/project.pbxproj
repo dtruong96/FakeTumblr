@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE29EC1B2217A82C00F175B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29EC1A2217A82C00F175B2 /* AppDelegate.swift */; };
+		EE29EC1D2217A82C00F175B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29EC1C2217A82C00F175B2 /* ViewController.swift */; };
+		EE29EC202217A82C00F175B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE29EC1E2217A82C00F175B2 /* Main.storyboard */; };
+		EE29EC222217A82F00F175B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE29EC212217A82F00F175B2 /* Assets.xcassets */; };
+		EE29EC252217A82F00F175B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE29EC232217A82F00F175B2 /* LaunchScreen.storyboard */; };
+		EE29EC302217A82F00F175B2 /* FakeTumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29EC2F2217A82F00F175B2 /* FakeTumblrTests.swift */; };
+		EE29EC3B2217A82F00F175B2 /* FakeTumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29EC3A2217A82F00F175B2 /* FakeTumblrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE29EC2C2217A82F00F175B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE29EC0F2217A82C00F175B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE29EC162217A82C00F175B2;
+			remoteInfo = FakeTumblr;
+		};
+		EE29EC372217A82F00F175B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE29EC0F2217A82C00F175B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE29EC162217A82C00F175B2;
+			remoteInfo = FakeTumblr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE29EC172217A82C00F175B2 /* FakeTumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeTumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE29EC1A2217A82C00F175B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE29EC1C2217A82C00F175B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE29EC1F2217A82C00F175B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE29EC212217A82F00F175B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE29EC242217A82F00F175B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE29EC262217A82F00F175B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE29EC2B2217A82F00F175B2 /* FakeTumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeTumblrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE29EC2F2217A82F00F175B2 /* FakeTumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeTumblrTests.swift; sourceTree = "<group>"; };
+		EE29EC312217A82F00F175B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE29EC362217A82F00F175B2 /* FakeTumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeTumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE29EC3A2217A82F00F175B2 /* FakeTumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeTumblrUITests.swift; sourceTree = "<group>"; };
+		EE29EC3C2217A82F00F175B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE29EC142217A82C00F175B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29EC282217A82F00F175B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29EC332217A82F00F175B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE29EC0E2217A82C00F175B2 = {
+			isa = PBXGroup;
+			children = (
+				EE29EC192217A82C00F175B2 /* FakeTumblr */,
+				EE29EC2E2217A82F00F175B2 /* FakeTumblrTests */,
+				EE29EC392217A82F00F175B2 /* FakeTumblrUITests */,
+				EE29EC182217A82C00F175B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE29EC182217A82C00F175B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE29EC172217A82C00F175B2 /* FakeTumblr.app */,
+				EE29EC2B2217A82F00F175B2 /* FakeTumblrTests.xctest */,
+				EE29EC362217A82F00F175B2 /* FakeTumblrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE29EC192217A82C00F175B2 /* FakeTumblr */ = {
+			isa = PBXGroup;
+			children = (
+				EE29EC1A2217A82C00F175B2 /* AppDelegate.swift */,
+				EE29EC1C2217A82C00F175B2 /* ViewController.swift */,
+				EE29EC1E2217A82C00F175B2 /* Main.storyboard */,
+				EE29EC212217A82F00F175B2 /* Assets.xcassets */,
+				EE29EC232217A82F00F175B2 /* LaunchScreen.storyboard */,
+				EE29EC262217A82F00F175B2 /* Info.plist */,
+			);
+			path = FakeTumblr;
+			sourceTree = "<group>";
+		};
+		EE29EC2E2217A82F00F175B2 /* FakeTumblrTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE29EC2F2217A82F00F175B2 /* FakeTumblrTests.swift */,
+				EE29EC312217A82F00F175B2 /* Info.plist */,
+			);
+			path = FakeTumblrTests;
+			sourceTree = "<group>";
+		};
+		EE29EC392217A82F00F175B2 /* FakeTumblrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE29EC3A2217A82F00F175B2 /* FakeTumblrUITests.swift */,
+				EE29EC3C2217A82F00F175B2 /* Info.plist */,
+			);
+			path = FakeTumblrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE29EC162217A82C00F175B2 /* FakeTumblr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE29EC3F2217A82F00F175B2 /* Build configuration list for PBXNativeTarget "FakeTumblr" */;
+			buildPhases = (
+				EE29EC132217A82C00F175B2 /* Sources */,
+				EE29EC142217A82C00F175B2 /* Frameworks */,
+				EE29EC152217A82C00F175B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeTumblr;
+			productName = FakeTumblr;
+			productReference = EE29EC172217A82C00F175B2 /* FakeTumblr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE29EC2A2217A82F00F175B2 /* FakeTumblrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE29EC422217A82F00F175B2 /* Build configuration list for PBXNativeTarget "FakeTumblrTests" */;
+			buildPhases = (
+				EE29EC272217A82F00F175B2 /* Sources */,
+				EE29EC282217A82F00F175B2 /* Frameworks */,
+				EE29EC292217A82F00F175B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE29EC2D2217A82F00F175B2 /* PBXTargetDependency */,
+			);
+			name = FakeTumblrTests;
+			productName = FakeTumblrTests;
+			productReference = EE29EC2B2217A82F00F175B2 /* FakeTumblrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE29EC352217A82F00F175B2 /* FakeTumblrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE29EC452217A82F00F175B2 /* Build configuration list for PBXNativeTarget "FakeTumblrUITests" */;
+			buildPhases = (
+				EE29EC322217A82F00F175B2 /* Sources */,
+				EE29EC332217A82F00F175B2 /* Frameworks */,
+				EE29EC342217A82F00F175B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE29EC382217A82F00F175B2 /* PBXTargetDependency */,
+			);
+			name = FakeTumblrUITests;
+			productName = FakeTumblrUITests;
+			productReference = EE29EC362217A82F00F175B2 /* FakeTumblrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE29EC0F2217A82C00F175B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Donald Truong";
+				TargetAttributes = {
+					EE29EC162217A82C00F175B2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EE29EC2A2217A82F00F175B2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE29EC162217A82C00F175B2;
+					};
+					EE29EC352217A82F00F175B2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE29EC162217A82C00F175B2;
+					};
+				};
+			};
+			buildConfigurationList = EE29EC122217A82C00F175B2 /* Build configuration list for PBXProject "FakeTumblr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE29EC0E2217A82C00F175B2;
+			productRefGroup = EE29EC182217A82C00F175B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE29EC162217A82C00F175B2 /* FakeTumblr */,
+				EE29EC2A2217A82F00F175B2 /* FakeTumblrTests */,
+				EE29EC352217A82F00F175B2 /* FakeTumblrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE29EC152217A82C00F175B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE29EC252217A82F00F175B2 /* LaunchScreen.storyboard in Resources */,
+				EE29EC222217A82F00F175B2 /* Assets.xcassets in Resources */,
+				EE29EC202217A82C00F175B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29EC292217A82F00F175B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29EC342217A82F00F175B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE29EC132217A82C00F175B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE29EC1D2217A82C00F175B2 /* ViewController.swift in Sources */,
+				EE29EC1B2217A82C00F175B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29EC272217A82F00F175B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE29EC302217A82F00F175B2 /* FakeTumblrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29EC322217A82F00F175B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE29EC3B2217A82F00F175B2 /* FakeTumblrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE29EC2D2217A82F00F175B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE29EC162217A82C00F175B2 /* FakeTumblr */;
+			targetProxy = EE29EC2C2217A82F00F175B2 /* PBXContainerItemProxy */;
+		};
+		EE29EC382217A82F00F175B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE29EC162217A82C00F175B2 /* FakeTumblr */;
+			targetProxy = EE29EC372217A82F00F175B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE29EC1E2217A82C00F175B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE29EC1F2217A82C00F175B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE29EC232217A82F00F175B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE29EC242217A82F00F175B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE29EC3D2217A82F00F175B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE29EC3E2217A82F00F175B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE29EC402217A82F00F175B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK3XEMQF66;
+				INFOPLIST_FILE = FakeTumblr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donald-Truong.FakeTumblr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE29EC412217A82F00F175B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK3XEMQF66;
+				INFOPLIST_FILE = FakeTumblr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donald-Truong.FakeTumblr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE29EC432217A82F00F175B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK3XEMQF66;
+				INFOPLIST_FILE = FakeTumblrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donald-Truong.FakeTumblrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeTumblr.app/FakeTumblr";
+			};
+			name = Debug;
+		};
+		EE29EC442217A82F00F175B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK3XEMQF66;
+				INFOPLIST_FILE = FakeTumblrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donald-Truong.FakeTumblrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeTumblr.app/FakeTumblr";
+			};
+			name = Release;
+		};
+		EE29EC462217A82F00F175B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK3XEMQF66;
+				INFOPLIST_FILE = FakeTumblrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donald-Truong.FakeTumblrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FakeTumblr;
+			};
+			name = Debug;
+		};
+		EE29EC472217A82F00F175B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK3XEMQF66;
+				INFOPLIST_FILE = FakeTumblrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donald-Truong.FakeTumblrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FakeTumblr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE29EC122217A82C00F175B2 /* Build configuration list for PBXProject "FakeTumblr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE29EC3D2217A82F00F175B2 /* Debug */,
+				EE29EC3E2217A82F00F175B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE29EC3F2217A82F00F175B2 /* Build configuration list for PBXNativeTarget "FakeTumblr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE29EC402217A82F00F175B2 /* Debug */,
+				EE29EC412217A82F00F175B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE29EC422217A82F00F175B2 /* Build configuration list for PBXNativeTarget "FakeTumblrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE29EC432217A82F00F175B2 /* Debug */,
+				EE29EC442217A82F00F175B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE29EC452217A82F00F175B2 /* Build configuration list for PBXNativeTarget "FakeTumblrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE29EC462217A82F00F175B2 /* Debug */,
+				EE29EC472217A82F00F175B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE29EC0F2217A82C00F175B2 /* Project object */;
+}
